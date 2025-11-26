@@ -48,10 +48,17 @@ body {
 
 }
 
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 button {
     width: 100%;
     padding: 12px;
-    margin: 8px 0;
+    /* margin: 8px 0; */
     background-color: hsl(0, 0%, 20%);
     color: white;
     border: none;
@@ -59,6 +66,8 @@ button {
     font-size: 15px;
     cursor: pointer;
 }
+
+
 
 button:hover {
     background-color: hsl(75, 94%, 57%);
