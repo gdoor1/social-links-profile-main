@@ -1,59 +1,67 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: hsl(0, 0%, 8%);
-    font-family:  "https://fonts.google.com/specimen/Inter"
+    font-family: "https://fonts.google.com/specimen/Inter"
 }
-.main{
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background-color:  hsl(0, 0%, 8%)
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%)
 }
-.card{
-background-color: hsl(0, 0%, 12%);
+
+.card {
+    background-color: hsl(0, 0%, 12%);
     width: 350px;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
 }
-.avatar{
-    width:90px ;
-    height:90px;
-    border-radius:50% ;
-    margin-bottom: 20px ;
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
-.card h2{
+
+.card h2 {
     color: white;
     font-size: 22px;
 }
-.p1{
-    color:  hsl(75, 94%, 57%) ;
+
+.loction {
+    color: hsl(75, 94%, 57%);
     margin: 5px 0 15px;
 }
-.p2{
-    color:white ;
+
+.job-title {
+    color: white;
     margin-bottom: 20px;
 
 }
-button{
+
+button {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
-    background-color:hsl(0, 0%, 20%) ;
+    background-color: hsl(0, 0%, 20%);
     color: white;
     border: none;
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: hsl(75, 94%, 57%);
     color: black;
     transition: 0.5s;
 }
-
